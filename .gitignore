@@ -1,0 +1,43 @@
+# 🐍 Ambientes virtuais
+.venv/
+env/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 🔑 Configurações sensíveis
+.env
+.env.*
+
+# 🗃️ Dados locais e temporários
+data/*.csv
+data/*.xlsx
+data/*.pdf
+data/*.db
+data/__pycache__/
+
+# 📄 Arquivos de cache e compilação
+*.log
+*.tmp
+*.swp
+
+# 📦 Arquivos do Jupyter (se houver)
+.ipynb_checkpoints/
+
+# ⚙️ VS Code
+.vscode/
+
+# 💻 Sistema operacional
+.DS_Store
+Thumbs.db
+
+# 🖼️ Arquivos gerados
+*.png
+*.jpg
+*.jpeg
+
+# 🧪 Testes ou dumps temporários
+tests/__pycache__/
+temp/
